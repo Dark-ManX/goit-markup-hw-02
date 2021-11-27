@@ -59,6 +59,9 @@ a {
 .link:focus {
   color: var(--interactive-color);
 }
+.current {
+  color: var(--interactive-color);
+}
 .contacts {
   color: var(--secondary-color);
 }
@@ -195,4 +198,9 @@ a {
 .portfolio-filter:focus {
   background-color: var(--interactive-color);
   color: var(--header-color);
+}
+.list-description {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
